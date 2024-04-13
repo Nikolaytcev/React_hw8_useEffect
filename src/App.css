@@ -1,0 +1,43 @@
+.users {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+ul {margin: 0; padding: 0;}
+
+.description {
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+    list-style-type: none;
+    border-bottom: 1px solid gray;
+}
+
+.description:last-child {
+    border: none;
+}
+
+.description:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+    font-size: 3em;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    position: absolute;
+    left: 300px;
+    top: 0;
+}
