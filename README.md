@@ -1,5 +1,7 @@
 # React + TypeScript + Vite
 
+[![Build status](https://ci.appveyor.com/api/projects/status/ixoiw1nmioxa3evt?svg=true)](https://ci.appveyor.com/project/Nikolaytcev/react-hw8-useeffect)
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
